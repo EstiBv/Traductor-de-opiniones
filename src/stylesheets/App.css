@@ -1,0 +1,17 @@
+.container {
+  background-color: hsl(0, 48%, 87%);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica;
+}
+.canvas {
+  background-color: hsl(0, 04%, 97%);
+  align-self: flex-start;
+  justify-content: center;
+  margin-top: 75px;
+  position: fixed;
+  border-radius: 5px;
+}

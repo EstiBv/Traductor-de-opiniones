@@ -1,0 +1,29 @@
+.label {
+  font-size: 24px;
+  color: hsl(0, 04%, 97%);
+}
+.text-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form {
+  align-self: flex-start;
+  margin-top: 20px;
+  border-style: none;
+  color: hsl(0, 68%, 77%);
+  text-align: center;
+  justify-content: center;
+}
+.form:hover {
+  transform: scale(0.9);
+}
+
+.form-container {
+  text-align: center;
+  width: 75%;
+  box-shadow: 4px 4px 20px 1px hsla(0, 21%, 16%, 0.2);
+  border-style: none;
+  border-radius: 3% 20% 20% 20%;
+  outline-style: none;
+}

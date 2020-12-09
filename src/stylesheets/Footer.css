@@ -1,0 +1,11 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: hsl(0, 04%, 97%);
+  opacity: 0.7;
+  width: 100%;
+  text-align: center;
+  height: 10vh;
+  justify-content: center;
+  font-family: Helvetica;
+}
