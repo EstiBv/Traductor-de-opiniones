@@ -21,10 +21,9 @@ function App() {
     <React.Fragment>
       <Header />
       <Switch>
-        {" "}
         <Route exact path="/" component={Landing} />
         <Route path="/child/:id" render={TextInput} />
-        <main className="container">
+        <main className="container landing">
           <canvas className="canvas" width="330" height="50"></canvas>
           <TextInput handleInputText={handleInputText} />
           <MIMITranslator textArea={textArea} />
