@@ -10,6 +10,9 @@ function TextInput(props) {
 
   return (
     <React.Fragment>
+      <Link to="/" className="link-home">
+        <p> 👋🏼 Muchas tardes y buenas gracias 👋🏼</p>
+      </Link>{" "}
       <section className="text-form">
         <form action="POST" className="form">
           <textarea
@@ -23,9 +26,6 @@ function TextInput(props) {
           ></textarea>
         </form>
       </section>
-      <Link to="/" className="link-home">
-        👋🏼
-      </Link>{" "}
     </React.Fragment>
   );
 }

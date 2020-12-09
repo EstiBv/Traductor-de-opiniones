@@ -2,7 +2,7 @@
   background-color: hsl(0, 48%, 87%);
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   font-family: Helvetica;
@@ -14,4 +14,5 @@
   margin-top: 75px;
   position: fixed;
   border-radius: 5px;
+  display: none;
 }

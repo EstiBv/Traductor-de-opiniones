@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <header className="container-title">
         {" "}
-        <h1 className="title">Expresarse es importante</h1>
+        <h1 className="title">Tu opinión es importante</h1>
       </header>
     );
   }

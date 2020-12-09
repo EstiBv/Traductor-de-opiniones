@@ -8,7 +8,7 @@ class Landing extends React.Component {
       <section className="landing">
         {" "}
         <Link to="/home" className="landing-linkHome">
-          Pincha aqui y comparte tu opinión
+          Haz click y expresa tu opinión
         </Link>{" "}
       </section>
     );
